@@ -12,6 +12,8 @@ html {
     text-align: right;
     height: 70px;
     line-height: 70px;
+    width: 50%;
+    float: left;
 }
 .menu {
     margin: 0 30px 0 0;
@@ -44,9 +46,19 @@ label {
 
 .bg-yellow {
     background-color: #fcdb00;
-    max-width: 1400px;
-    height: 2000px;
     margin: 0 auto;
+}
+/**************************/
+.logoContainer {
+    width: 50%;
+    float: left;
+}
+
+/**************************/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .container {
@@ -64,16 +76,19 @@ label {
 .textos {
     width: 50%;
     float: left;
-    margin-right: 92px;
+}
+/**************************/
+.imageContainer {
+    float: left;
+    width: 50%;
 }
 
 .tablet {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-right: 0px;
+    margin: 0 auto;
     margin-top: 70px;
-    float: left;
 }
 
 .iconos {

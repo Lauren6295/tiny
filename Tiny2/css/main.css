@@ -10,7 +10,9 @@ html {
 .nav {
   text-align: right;
   height: 70px;
-  line-height: 70px; }
+  line-height: 70px;
+  width: 50%;
+  float: left; }
 
 .menu {
   margin: 0 30px 0 0; }
@@ -38,9 +40,18 @@ label {
 /*********END MENU**********/
 .bg-yellow {
   background-color: #fcdb00;
-  max-width: 1400px;
-  height: 2000px;
   margin: 0 auto; }
+
+/**************************/
+.logoContainer {
+  width: 50%;
+  float: left; }
+
+/**************************/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
 
 .container {
   width: 66%;
@@ -54,16 +65,19 @@ label {
 
 .textos {
   width: 50%;
+  float: left; }
+
+/**************************/
+.imageContainer {
   float: left;
-  margin-right: 92px; }
+  width: 50%; }
 
 .tablet {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-right: 0px;
-  margin-top: 70px;
-  float: left; }
+  margin: 0 auto;
+  margin-top: 70px; }
 
 .iconos {
   margin-top: 43px;
