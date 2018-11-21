@@ -154,6 +154,9 @@ textarea {
     width: 100%; }
 
   #email {
+    width: 100%; }
+
+  .texto2 {
     width: 100%; } }
 @media only screen and (max-width: 576px) {
   label {
