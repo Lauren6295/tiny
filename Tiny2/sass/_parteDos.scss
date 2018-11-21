@@ -9,6 +9,12 @@
     padding-top: 60px;
 }
 
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .titulo, .texto2 {
     text-align: center;
     margin-top: 106px;
