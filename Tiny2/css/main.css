@@ -121,14 +121,15 @@ label {
 .container {
   width: 66%;
   margin: 0 auto;
-  padding-top: 60px;
-  text-align: center; }
+  padding-top: 60px; }
 
 .texto3 {
-  color: #717171; }
+  color: #717171;
+  text-align: center; }
 
 .tituloFooter {
-  color: #e7c900; }
+  color: #e7c900;
+  text-align: center; }
 
 .formulario {
   width: 66%;
@@ -167,6 +168,9 @@ textarea {
     display: block; }
 
   .textos {
+    width: 100%; }
+
+  .listTitle {
     width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
