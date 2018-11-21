@@ -149,6 +149,12 @@ textarea {
   background-color: #e7c900;
   border-radius: 5px; }
 
+@media only screen and (max-width: 768px) {
+  .listTitle {
+    width: 100%; }
+
+  #email {
+    width: 100%; } }
 @media only screen and (max-width: 576px) {
   label {
     display: block;
