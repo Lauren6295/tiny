@@ -2,3 +2,31 @@
     background-color: white;
     margin: 0 auto;
 }
+
+.container {
+    width: 66%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.titulo, .texto2 {
+    text-align: center;
+    margin-top: 106px;
+}
+
+.texto2 {
+    margin-top: 24px;
+}
+
+/*********LISTA**********/
+
+.listTitle {
+    list-style: none;
+    width: 31%;
+    float: left;
+}
+
+.listTitle li + li {
+    margin-right: 40px;
+}
+
